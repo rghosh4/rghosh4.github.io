@@ -42,4 +42,4 @@ chordDiagram(data, transparency = 0.5)
 
 ## My CV
 
-Please view my CV clicking : [here](Riddhimoy_Ghosh_CV.pdf)
+Please view my CV clicking : [***CV***](https://github.com/rghosh4/rghosh4.github.io/blob/main/Riddhimoy_Ghosh_CV.pdf)
