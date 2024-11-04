@@ -1,0 +1,41 @@
+---
+title: "STAT 850: Presentation"
+author: "RG"
+format: 
+  revealjs:
+    theme: moon
+---
+
+## Introduction
+
+Hello World! Riddhi here...
+
+-   February 13^th^ is my birthday.
+-   I grew up in Kolkata, India.
+-   I am in the Statistics Graduate Program at UNL.
+-   I expect to graduate in Spring 2028.
+
+## Animal Picture
+
+![Gangetic Dolphin](grd1a-1180x520.jpg){width="80%"}
+
+## Favourite Plot: Chord Diagram
+
+```{r}
+# Create an adjacency matrix: 
+# a list of connections between 20 origin nodes, and 5 destination nodes:
+numbers <- sample(c(1:1000), 100, replace = T)
+data <- matrix( numbers, ncol=5)
+rownames(data) <- paste0("orig-", seq(1,20))
+colnames(data) <- paste0("dest-", seq(1,5))
+
+# Load the circlize library
+library(circlize)
+ 
+# Make the circular plot
+chordDiagram(data, transparency = 0.5)
+```
+
+## My CV:
+
+Please view my CV clicking : [link to my CV](Riddhimoy_Ghosh_CV.pdf)
