@@ -1,11 +1,7 @@
-# rghosh4.github.io-
+## Github Page!
 
-github pages site
+### We have got 2 sets of slides for this assignment:
 
-This is my github pages site.
+-   The [*first one*](reveal.qmd) is html, built using ***revealjs***
 
-I created 2 set of slides for this assignment:
-
--   One using revealjs. To view, click [here](reveal.html)
-
--   Another using beamer. To view, click here
+-   The [*other one*](beamer.pdf) is pdf, uses ***beamer***
