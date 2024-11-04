@@ -36,6 +36,6 @@ library(circlize)
 chordDiagram(data, transparency = 0.5)
 ```
 
-## My CV:
+## CV:
 
 Please view my CV clicking : [link to my CV](Riddhimoy_Ghosh_CV.pdf)
